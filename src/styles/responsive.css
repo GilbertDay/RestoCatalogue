@@ -1,4 +1,23 @@
+@media screen and (max-width: 424px) {
+  .hero {
+    background-image: url("./images/hero-image_4-small.jpg");
+  }
+  .hero__title {
+    font-size: 22px;
+  }
+  .hero__tagline {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 425px) {
+  .hero {
+    background-image: url("./images/hero-image_4-600.jpg");
+  }
+}
 @media screen and (min-width: 650px) {
+  .hero {
+    background-image: url("./images/hero-image_4-large.jpg");
+  }
   .main {
     grid-template-columns: auto 1fr;
   }
@@ -49,6 +68,9 @@
 }
 
 @media screen and (min-width: 1600px) {
+  .hero {
+    background-image: url("./images/hero-image_4-xtraLarge.jpg");
+  }
   main {
     max-width: 1500px;
   }
